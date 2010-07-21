@@ -1,0 +1,50 @@
+------------------------------------------------------------------------
+r137 | ddumont | 2010-01-07 04:44:28 +0000 (Thu, 07 Jan 2010) | 1 line
+Changed paths:
+   A /tags/v3.8 (from /trunk:136)
+
+Tagging as v3.8
+------------------------------------------------------------------------
+r136 | ddumont | 2010-01-07 02:58:37 +0000 (Thu, 07 Jan 2010) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+
+Allow to hook original DoCellUpdate by attaching it to the table.   
+------------------------------------------------------------------------
+r134 | ddumont | 2009-12-21 23:12:03 +0000 (Mon, 21 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+
+Testing support for a minimal dataset
+------------------------------------------------------------------------
+r133 | ddumont | 2009-12-12 00:45:50 +0000 (Sat, 12 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+
+Testing support for a minimal dataset
+------------------------------------------------------------------------
+r132 | ddumont | 2009-12-10 12:58:22 +0000 (Thu, 10 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+
+Testing support for a minimal dataset
+------------------------------------------------------------------------
+r131 | ddumont | 2009-12-10 12:43:05 +0000 (Thu, 10 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+
+Testing support for a minimal dataset
+------------------------------------------------------------------------
+r130 | ddumont | 2009-12-09 02:14:21 +0000 (Wed, 09 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/lib-st.toc
+
+wow version update
+------------------------------------------------------------------------
+r129 | ddumont | 2009-12-06 20:49:54 +0000 (Sun, 06 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+
+Testing support for a minimal dataset
+------------------------------------------------------------------------

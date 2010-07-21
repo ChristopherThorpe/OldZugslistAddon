@@ -1,0 +1,19 @@
+------------------------------------------------------------------------
+r113 | sylvanaar | 2010-02-22 21:59:37 +0000 (Mon, 22 Feb 2010) | 1 line
+Changed paths:
+   A /tags/2.0.113 (from /trunk:112)
+
+Tagging as 2.0.113
+------------------------------------------------------------------------
+r112 | sylvanaar | 2010-02-19 23:53:41 +0000 (Fri, 19 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/LibWho-2.0/LibWho-2.0.lua
+
+prevent re-registration of WHO_LIST_UPDATED
+------------------------------------------------------------------------
+r111 | sylvanaar | 2010-02-19 23:38:42 +0000 (Fri, 19 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/LibWho-2.0/LibWho-2.0.lua
+
+cleaner implementation which removes the OnEvent hook from the FriendsFrame. Courtesy of Pazza. Should hopefully clear up some of the weird taint cases.
+------------------------------------------------------------------------

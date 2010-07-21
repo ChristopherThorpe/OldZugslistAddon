@@ -1,0 +1,182 @@
+------------------------------------------------------------------------
+r907 | nevcairiel | 2009-12-16 17:08:05 +0000 (Wed, 16 Dec 2009) | 1 line
+Changed paths:
+   A /tags/Release-r907 (from /trunk:906)
+
+Maintenance release that fixes two annoying bugs since r900
+------------------------------------------------------------------------
+r906 | nevcairiel | 2009-12-16 17:06:39 +0000 (Wed, 16 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/changelog.txt
+
+Update changelog.txt
+------------------------------------------------------------------------
+r905 | nevcairiel | 2009-12-15 16:48:32 +0000 (Tue, 15 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceTab-3.0/AceTab-3.0.lua
+
+Remove 3.2 compat hack
+------------------------------------------------------------------------
+r904 | nevcairiel | 2009-12-13 11:56:37 +0000 (Sun, 13 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.lua
+
+AceConfigCmd-3.0: Properly handle inline groups with a different handler in help output. (Ticket #101)
+------------------------------------------------------------------------
+r903 | nevcairiel | 2009-12-13 11:09:35 +0000 (Sun, 13 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Frame.lua
+
+AceGUI-3.0: Frame: Properly save the width in the status table.
+------------------------------------------------------------------------
+r902 | nevcairiel | 2009-12-12 14:56:14 +0000 (Sat, 12 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+
+AceConfigDialog-3.0: Don't bail out and error when a dialogControl was invalid, instead show the error and fallback to the default control for that type.
+------------------------------------------------------------------------
+r901 | nevcairiel | 2009-12-08 17:56:17 +0000 (Tue, 08 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+
+AceConfigDialog-3.0: Fix a hickup with the OnUpdate script not getting upgraded properly in some situations.
+------------------------------------------------------------------------
+r899 | nevcairiel | 2009-12-08 13:44:20 +0000 (Tue, 08 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+Update .toc for 3.3
+------------------------------------------------------------------------
+r898 | nevcairiel | 2009-12-08 13:44:01 +0000 (Tue, 08 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/changelog.txt
+
+Update changelog.txt
+------------------------------------------------------------------------
+r897 | mikk | 2009-12-06 17:02:27 +0000 (Sun, 06 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.lua
+
+Regression fix from ticket #96: If "cmdHidden" is non-nil, we obey it before "hidden". Not just if it's true.
+------------------------------------------------------------------------
+r896 | nevcairiel | 2009-12-06 16:29:49 +0000 (Sun, 06 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
+   M /trunk/tests/AceGUI-3.0-recycle.lua
+
+Adjust tests for AceGUI changes.
+------------------------------------------------------------------------
+r895 | nevcairiel | 2009-12-06 16:28:55 +0000 (Sun, 06 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceAddon-3.0/AceAddon-3.0.lua
+   M /trunk/AceBucket-3.0/AceBucket-3.0.lua
+   M /trunk/AceComm-3.0/AceComm-3.0.lua
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   M /trunk/AceDBOptions-3.0/AceDBOptions-3.0.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-TreeGroup.lua
+   M /trunk/AceLocale-3.0/AceLocale-3.0.lua
+   M /trunk/AceTimer-3.0/AceTimer-3.0.lua
+   M /trunk/CallbackHandler-1.0/CallbackHandler-1.0.lua
+
+Adjust upvalues slightly to allow debugging and running tests.
+------------------------------------------------------------------------
+r894 | nevcairiel | 2009-12-06 16:14:30 +0000 (Sun, 06 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+Don't include tests in the zip, devs working on Ace3 have svn checkouts, anyway!
+------------------------------------------------------------------------
+r893 | nevcairiel | 2009-12-06 16:01:49 +0000 (Sun, 06 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.lua
+
+AceConfigCmd-3.0: Properly parse functions and methods supplied for the "hidden" option table member. (Ticket #96)
+------------------------------------------------------------------------
+r892 | nevcairiel | 2009-12-06 15:16:45 +0000 (Sun, 06 Dec 2009) | 2 lines
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDownGroup.lua
+
+AceGUI-3.0: DropDownGroup: Adjust the positioning of the title text
+AceConfigDialog-3.0: Pass the groups "name" tag to DropDownGroups as the title.
+------------------------------------------------------------------------
+r891 | nevcairiel | 2009-12-06 13:02:19 +0000 (Sun, 06 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/changelog.txt
+
+Update changelog.txt
+------------------------------------------------------------------------
+r890 | nevcairiel | 2009-12-06 12:50:05 +0000 (Sun, 06 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   M /trunk/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
+
+AceConfigDialog-3.0: Allow image/imageCoords on toogle elements (Note that the width/height of the image on the toggle cannot be changed)
+------------------------------------------------------------------------
+r889 | nevcairiel | 2009-12-06 12:47:43 +0000 (Sun, 06 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+
+AceGUI-3.0: Allow displaying a image in front of the checkbox label
+------------------------------------------------------------------------
+r888 | nevcairiel | 2009-12-05 21:32:19 +0000 (Sat, 05 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
+
+AceGUI-3.0: Slider: Add a more visible backdrop/border around the manual input area (Ticket #98)
+------------------------------------------------------------------------
+r887 | nevcairiel | 2009-12-05 21:23:38 +0000 (Sat, 05 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-ScrollFrame.lua
+
+AceGUI-3.0: ScrollFrame: Potentially fix an issue that caused the scrollframe to reset to top in certain resolution/UIScale combinations.
+------------------------------------------------------------------------
+r886 | nevcairiel | 2009-12-05 18:10:29 +0000 (Sat, 05 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-TreeGroup.lua
+
+AceGUI-3.0: TreeGroup: Allow iconCoords to be passed for the tree elements. (Ticket #59)
+------------------------------------------------------------------------
+r885 | nevcairiel | 2009-12-05 18:02:30 +0000 (Sat, 05 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Window.lua
+
+AceGUI-3.0: Added an API to the Window container to disable the user-resizing of the same. (Ticket #80)
+------------------------------------------------------------------------
+r884 | nevcairiel | 2009-12-02 19:01:14 +0000 (Wed, 02 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceDBOptions-3.0/AceDBOptions-3.0.lua
+
+AceDBOptions-3.0: Use the esES locale for esMX until someone provides a real translation.
+------------------------------------------------------------------------
+r883 | nevcairiel | 2009-12-02 18:58:49 +0000 (Wed, 02 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceDBOptions-3.0/AceDBOptions-3.0.lua
+
+AceDBOptions-3.0: Show the current profile on the dialog.
+------------------------------------------------------------------------
+r882 | nevcairiel | 2009-12-02 18:04:53 +0000 (Wed, 02 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+
+AceConfigDialog-3.0: Properly refresh BlizOptions Windows which are registered with a path on NotifyChange. This required a re-design of the AceConfigDialog.BlizOptions table, so if any 3rd party addon somehow accessed this table, it will have to be adjusted.
+------------------------------------------------------------------------
+r881 | nevcairiel | 2009-12-02 17:26:07 +0000 (Wed, 02 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Icon.lua
+
+AceGUI-3.0: Icon: Explicitly set the TexCoords to the default value if none are specified.
+------------------------------------------------------------------------
+r880 | nevcairiel | 2009-11-15 17:02:07 +0000 (Sun, 15 Nov 2009) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua
+
+AceGUI-3.0: Clear the contents of the editbox when releasing it.
+------------------------------------------------------------------------
+r879 | nevcairiel | 2009-11-02 18:59:34 +0000 (Mon, 02 Nov 2009) | 1 line
+Changed paths:
+   M /trunk/changelog.txt
+
+Updated changelog
+------------------------------------------------------------------------
